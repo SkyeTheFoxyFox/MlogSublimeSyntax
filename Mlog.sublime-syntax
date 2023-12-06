@@ -119,7 +119,7 @@ contexts:
       scope: keyword.control.mlog
       push: winstruction_marker
 
-    - match: ^(\s)*(set|packcolor|read|write|print|printflush|drawflush|getlink|sensor|wait|stop|end|ubind|spawn|spawnwave|explosion|setrate|getflag|setflag|setprop|sync|noop)\b
+    - match: ^(\s)*(set|packcolor|read|write|print|printflush|drawflush|getlink|sensor|wait|stop|end|ubind|spawn|spawnwave|explosion|setrate|getflag|setflag|setprop|sync|noop|format|localeprint)\b
       scope: keyword.control.mlog
 
 
